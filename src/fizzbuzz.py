@@ -1,11 +1,12 @@
 # === FizzBuzz ===
 #
-# Given an integer n, return a string array answer (1-indexed) where:
-#
-# answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
-# answer[i] == "Fizz" if i is divisible by 3.
-# answer[i] == "Buzz" if i is divisible by 5.
-# answer[i] == i (as a string) if none of the above conditions are true.
+# Given an integer `n`, return a list of strings where:
+# 
+# 1. The list starts at 1 and has `n` elements.
+# 2. Element `i` is the string representation of `i`;
+#   - except when `i` is divisible by 3, in which case it should be "Fizz";
+#   - except when `i` is divisible by 5, in which case it should be "Buzz";
+#   - except when `i` is divisible by both 3 and 5, in which case it should be "FizzBuzz".
 #
 # Example 1:
 # Input: n = 3
